@@ -251,4 +251,5 @@ def crack_new():
             pass
 
 if __name__=='__main__':
+    system('git pull')
     auto()
