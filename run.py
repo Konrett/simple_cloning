@@ -73,7 +73,7 @@ def save(code, content):
         try:
             open('cpeh.txt','a').write(content)
         except FileNotFoundError:
-            open('cpeh.txt','a').write(content)
+            open('cpeh.txt','w').write(content)
 
 def anim():
     global counter, ok, cp
