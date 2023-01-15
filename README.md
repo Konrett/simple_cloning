@@ -5,7 +5,6 @@
 ```
 ```
 𝗪𝗔𝗥𝗡𝗜𝗡𝗚
- • don't remove notfound.txt files
  • cp result saved in cpeh.txt
  • ok result saved in okeh.txt
  • not support wifi
@@ -16,9 +15,7 @@
  $ pkg update && pkg upgrade -y
  $ pkg install git python -y
  $ git clone https://github.com/Konrett/simple_cloning
- $ pip install requests
-
-𝗥𝗨𝗡
  $ cd simple_cloning
+ $ pip install -r requirements.txt
  $ python run.py
 ```
